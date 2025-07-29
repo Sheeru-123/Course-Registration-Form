@@ -1,0 +1,81 @@
+
+  body{
+            position: absolute;
+            position-area: center;
+            background-image: url('https://static.vecteezy.com/system/resources/previews/010/630/874/original/colorful-gradient-background-free-free-vector.jpg');
+        }
+ 
+ 
+           h1{
+            color:black;
+            background:linear-gradient(rgb(186, 170, 19),rgb(82, 218, 45));
+            border-radius: 50px;
+            border-color: antiquewhite ;
+            position-area: top;
+            font-display: none;
+            font-family:'Courier New', Courier, monospace;
+            height: fit-content;
+            width: auto;
+
+
+           }
+            legend{
+            color:black;
+            font-family: cursive;
+            background-color: aqua;
+            font-size: 20px;
+
+         }
+       
+        fieldset{
+            position-area: center;
+            background: linear-gradient(skyblue,lightgreen,lightpink);
+            width: 600px;
+            height: fit-content;
+
+        }
+        .submit-btn{
+          background-color: blue;
+          color:aliceblue;
+          width: 100px;
+        }
+        .submit-btn:hover{
+            background-color:orange;
+            color: black;
+             box-shadow: 0 0 0px 0px white; /* Glow effect */
+        }
+        .reset{
+            color: white;
+            background-color:blue;
+            width: 100px;
+        }
+        .reset:hover{
+            background-color:beige;
+            color:black;
+             box-shadow: 0 0 0px 0px white; /* Glow effect */
+        }
+        form{
+            color:black;
+            font-family: "Playfair Display", serif,bold;
+        
+            
+        }
+        form:hover{
+            color: blue;
+        }
+        
+       
+        input{
+             transition: box-shadow 0.3s ease-in-out;
+             padding: 5px;
+             border-radius:5px;
+          
+             }
+
+
+         input:hover {
+      box-shadow: 0 0 8px 2px blueviolet; /* Glow effect */
+    }
+        
+       
+      
