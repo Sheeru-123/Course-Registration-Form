@@ -1,8 +1,12 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
   body{
             position: absolute;
             position-area: center;
-            background-image: url('https://static.vecteezy.com/system/resources/previews/010/630/874/original/colorful-gradient-background-free-free-vector.jpg');
+            background-image: url('https://static.vecteezy.com/system/resources/previews/017/174/534/non_2x/light-pink-blue-blur-backdrop-vector.jpg');
+             
         }
  
  
@@ -20,25 +24,42 @@
 
            }
             legend{
-            color:black;
-            font-family: cursive;
-            background-color: aqua;
-            font-size: 20px;
+                  /* background: linear-gradient(90deg,rgb(215, 17, 195) 30%, rgb(21, 36, 204) 100%,white);
+                  -webkit-text-fill-color: transparent;
+                  -webkit-background-clip: text; */
+           
+            font-family: "Roboto Condensed", sans-serif;
+        
+            color:blue;
+            font-size: 25px;
+            font-weight: 700;
+            
 
          }
-       
+         #pd{
+            color:blue;
+         }
+
         fieldset{
             position-area: center;
             background: linear-gradient(skyblue,lightgreen,lightpink);
             width: 600px;
             height: fit-content;
+            border-width: 5px;
+            border-radius: 30px;
+            border-color: black;
 
         }
         .submit-btn{
           background-color: blue;
           color:aliceblue;
           width: 100px;
+          position: absolute;
+          position-area: center;
+          position-area: bottom;
+          
         }
+        
         .submit-btn:hover{
             background-color:orange;
             color: black;
@@ -57,11 +78,13 @@
         form{
             color:black;
             font-family: "Playfair Display", serif,bold;
+            border-radius: 50px;
+           
         
             
         }
         form:hover{
-            color: blue;
+            color:brown;
         }
         
        
